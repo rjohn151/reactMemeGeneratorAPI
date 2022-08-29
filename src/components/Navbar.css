@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #fff;
+  padding: 20px;
+  /* justify-content:space-between; */
+}
+
+.nav-logo{
+  width: 50px;
+  margin-right: 6px;
+}
+
+.nav-title{
+  font-size: 20px;
+  margin-right: auto ; /*Pushes the ul > li all the way to the left*/
+}
+
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navbar > ul > li {
+  margin-left: 10px;
+}
+
+
+
+
+
+
